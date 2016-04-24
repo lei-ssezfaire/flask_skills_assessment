@@ -1,1 +1,26 @@
-/*Your styles can go here.*/
+body {
+	font-family: "Lucida Console";
+	background-color: #e6e6ff;
+}
+
+header {
+	color: #ff99ff;
+	font-size: 40pt;
+	text-align: center;
+	margin: .30em;
+}
+
+#logo {
+	position: absolute;
+	right: 0em;
+	width: 1em;
+	height: 1em;
+}
+
+#company-name {
+	color: #ff99ff;
+}
+
+.emphasis{
+	font-weight: bold;
+}
