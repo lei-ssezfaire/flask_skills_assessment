@@ -1,12 +1,6 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Application Response</title>
-</head>
-<body>
+{% extends "base.html" %}
+{% block title %}Application Confirmation{% endblock %}
 
+{% block content %}
 	<p>Your application has been confirmed, {{ first_name }} {{ last_name }}. You have applied for a {{ job_title }} role with a base salary of ${{ salary}}.</p>
-
-</body>
-</html>
+{% endblock %}
