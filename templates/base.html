@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>{% block title %}TITLE GOES HERE{% endblock %}</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+  	<header>
+  		Baloonicorn Engineering Co.
+  		<img src="http://orig08.deviantart.net/4825/f/2014/117/7/e/balloonicorn_suit_by_peeka13-d7ga4ho.png" id="logo" alt="baloonicorn-logo">
+  	</header>
+   	  <br>
+   	    {% block content %}CONTENT GOES HERE{% endblock %}
+      </br>
+  </body>
+</html>
