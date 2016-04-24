@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index_page():
-    """Route directly to application form"""
+    """Homepage with link to application"""
 
     return render_template("index.html")
     
